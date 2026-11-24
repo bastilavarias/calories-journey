@@ -27,7 +27,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Tuesday, 2026-11-24
 
-**Status:** CLOSED for food; possible evening beer recorded below as **planned/not yet confirmed finished**. Revised after user clarified protein shake was not consumed on Nov 24. Estimates remain provisional and may be revised if specific nutrition labels are supplied.
+**Status:** CLOSED — evening beer included; protein shake excluded. Estimates remain provisional and may be revised if specific nutrition labels are supplied.
 
 ### Eaten / logged
 
@@ -40,17 +40,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Air-fried chicken breast with broccoli and creamy mushroom sauce | **257 g total**: 120 g cooked chicken breast, 50 g broccoli, **~87 g mushrooms/sauce remainder** | **~345** | **~40 g** | **~12 g** | **~14 g** | Chicken ~198 kcal; broccoli ~17 kcal; creamy mushroom sauce/remainder ~130 kcal. Sauce estimate especially variable with cream, butter, mushrooms and oil; photo cannot determine ingredients. |
 | Rebisco Strawberry Cream-Filled Cracker Sandwich | **2 individual packets × 32 g** | **~320** | ~4 g | ~44 g | ~14 g | User confirmed through subsequent clarification these should be counted as eaten; nutrition estimate 160 kcal per packet. |
 | Air-fried hash brown | 100 g | **~200** | ~2 g | ~26 g | ~10 g | Estimated for typical pre-formed frozen hash browns air-fried without additional oil; brand/label can change calories substantially |
-| **Daily eaten subtotal** | | **~1,745** | **~136 g** | **~143 g** | **~69 g** | Protein shake and Swirly Bitz were NOT eaten; two Rebisco packets included |
-
-### Evening reward / planned (not confirmed consumed)
-
-| Item | Quantity | Estimated calories | Note |
-|---|---|---:|---|
-| Red Horse Extra Strong Beer | 1 bottle, 500 mL | ~280 kcal | User showed bottle and said reward; **do not count as consumed until confirmed**. PH registration 6.9% ABV; actual calories unknown without label; plausible range ~250–300 kcal |
+| Red Horse Extra Strong Beer | 1 bottle, 500 mL | ~280 | — | — | — | User confirmed drinking it tonight. Full bottle counted as requested; calories estimated, beer macros not verified. |
+| **Daily eaten subtotal** | | **~2,025** | **~136 g** | **~143 g** | **~69 g** | Food macros only; beer macros not included. Protein shake and Swirly Bitz were not consumed. |
 
 ### November 24 totals
 
-**Estimated eaten (food only, without the beer):** **1,745 kcal**, **~136 g protein**, **~143 g carbs**, **~69 g fat**. **Remaining:** **155 kcal** against 1,900 kcal target; **~4 g protein** below the nominal 140 g target. **If whole beer drunk:** ~**2,025 kcal** for day, or **125 kcal above target**; don't subtract unconfirmed beer from eaten total. User clarified that the Athlene shake was **not consumed** on Nov 24, so its 120 kcal and ~24 g protein are excluded. User clarified two Rebisco Strawberry packets were part of today's intake, not merely planned. **Swirly Bitz was not eaten today.** Apple cider vinegar quantity is unclear and not separately counted (typically low-calorie seasoning). Mackerel calories and protein remain provisional until can variety/label confirmed. Creamy mushroom sauce estimate is provisional pending exact recipe/cream quantity. All nutrition values are approximate.
+**Estimated intake:** **2,025 kcal**, or **125 kcal above the 1,900 kcal target**. Food-only macros: **~136 g protein**, **~143 g carbs**, **~69 g fat**; beer macros not verified. Red Horse 500 mL counted at ~280 kcal as the user confirmed drinking it. The Athlene shake and Swirly Bitz were not consumed and are excluded. Both Rebisco packets are included. Apple cider vinegar quantity is unclear and not separately counted. Mackerel and creamy mushroom sauce estimates remain provisional. All nutrition values are approximate.
 
 ---
 
@@ -95,12 +90,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 ## Logging conventions for future chats
 
 1. Keep each day under its own dated heading in **Asia/Manila** time.
-2. Separate **eaten**, **planned**, and **unconfirmed** food. Only move planned items to eaten when user confirms.
+2. **Default to consumed/logged:** whenever the user reports food or drink to log, count the stated portion immediately, including when they say they will eat or drink it now. Do not require a second confirmation. Mark items planned only if the user explicitly requests a hypothetical meal or says not to count it yet. Correct the log promptly if the user says an item was not consumed.
 3. Use the user's **1,900 kcal daily** and **140 g protein** goals unless updated.
 4. State estimation assumptions (cooked/raw, bone-in, oil, sauce, portions) and avoid false precision.
 5. If user supplies nutrition facts or an app entry, preserve its values *and flag internal inconsistencies*. Do not silently replace with guessed data.
 6. Append each user-reported morning scale reading to the Morning weigh-ins table using the actual date; use weekly trends rather than one-day fluctuations. Do not invent or backfill readings.
-7. Never retroactively infer that planned food was eaten.
+7. Do not invent intake that the user never reported. Apply the consumed-by-default rule to reported logging requests; revise entries if the user corrects them.
 
 ## Open questions (only ask when useful)
 
