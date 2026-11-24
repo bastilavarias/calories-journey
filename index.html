@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A personal journal of nutrition, weight, and daily accountability.">
+<meta name="description" content="A personal journal of nutrition and morning weigh-ins.">
 <meta name="theme-color" content="#f7f5ef">
 <title>Calories Journey | A daily record</title>
 <link rel="stylesheet" href="styles.css">
@@ -28,10 +28,7 @@
       <div class="ledger"><table><caption>Food and drink ledger</caption><thead><tr><th scope="col">Item</th><th scope="col">Status</th><th scope="col" class="num">kcal</th><th scope="col" class="num">Protein</th></tr></thead><tbody id="meals"></tbody></table></div>
       <details class="notes"><summary>Estimation notes</summary><div id="notes"></div></details>
     </section>
-    <div class="two-col">
-      <section aria-labelledby="journey-heading" class="panel"><h2 id="journey-heading">Morning weigh-ins</h2><div class="weight"><strong id="weight" class="big">Not recorded</strong><span id="weight-goal" class="muted"></span></div><p class="small muted" id="weight-note">No morning weigh-ins recorded yet.</p><ol id="milestones" class="timeline"></ol></section>
-      <section aria-labelledby="account-heading" class="panel"><h2 id="account-heading">Accountability</h2><p class="muted small">Record what happened. Leave unknowns unknown.</p><dl id="accountability" class="account-list"></dl><p class="reflection">What went well? What can I improve tomorrow?</p><p class="muted small">No reflection recorded.</p></section>
-    </div>
+    <section aria-labelledby="journey-heading" class="panel weigh-ins"><h2 id="journey-heading">Morning weigh-ins</h2><div class="weight"><strong id="weight" class="big">Not recorded</strong><span id="weight-goal" class="muted"></span></div><p class="small muted" id="weight-note">No morning weigh-ins recorded yet.</p><ol id="milestones" class="timeline"></ol></section>
     <section class="panel history"><h2>Daily history</h2><p class="small muted">Logged intake only. Unconfirmed food and drink are shown separately.</p><div id="history"></div></section>
   </div>
 </main>

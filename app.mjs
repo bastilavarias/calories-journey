@@ -60,8 +60,6 @@ function renderDay(model,day){
   }
   if(!day.rows.length){const tr=element('tr'),td=element('td','No items recorded for this date.');td.colSpan=4;tr.append(td);body.append(tr);}
   $('notes').replaceChildren(...day.rows.filter(row=>row.note).map(row=>element('p',row.name+': '+row.note)));
-  const entries=[['Food journal',day.rows.some(row=>row.status==='eaten')?'Logged':'Not recorded'],['Protein goal',pg?(total.protein>=pg?'Reached (estimated)':total.protein+' / '+pg+' g estimated'):'Not recorded'],['Sleep · 7–8 hours','Not recorded'],['Strength training','Not recorded'],['Alcohol record',day.rows.some(row=>row.status==='planned'&&/beer/i.test(row.name))?'Unconfirmed drink':'Not recorded']];
-  $('accountability').replaceChildren(...entries.map(([label,value])=>{const div=element('div');div.append(element('dt',label),element('dd',value));return div;}));
 }
 function renderHistory(model){
   const g=model.goals;
