@@ -18,6 +18,13 @@
 | Break | ~1 month | Paused cutting, ate more freely |
 | Long-term goal | **64–65 kg** | User's stated goal |
 
+## Morning weigh-ins
+
+Record actual scale readings in Asia/Manila, preferably after using the bathroom and before breakfast. No daily readings have been reported yet; the earlier weight range is a historical baseline, not a dated scale reading. Use weekly averages to assess trends.
+
+| Date | Weight (kg) |
+|---|---:|
+
 ## Log: Tuesday, 2026-11-24
 
 **Status:** CLOSED for food; possible evening beer recorded below as **planned/not yet confirmed finished**. Revised after user clarified protein shake was not consumed on Nov 24. Estimates remain provisional and may be revised if specific nutrition labels are supplied.
@@ -49,6 +56,8 @@
 
 ## Log: Monday, 2026-11-23
 
+**Status:** CLOSED — user confirmed on November 24 that both the ground beef with tortilla wraps and eight kwek-kwek were eaten.
+
 ### Eaten / logged
 
 | Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
@@ -57,28 +66,20 @@
 | Fried chicken thigh | 292 g | 580 | 50 g | 15 g | 35 g | Bone-in vs edible weight unknown; skin/oil vary |
 | Athlene Chocolate Fudge protein shake | 1 scoop | **120** | ~24 g | ~3 g | ~1 g | User explicitly corrected calories to 120, not 120 g |
 | Swirly Bitz merienda | Listed recipe portion | 265 | ~7 g | ~29 g | ~13 g | Earlier counted as eaten; user has not confirmed whether the entire recipe was eaten |
-| **Subtotal logged eaten** | | **1,135** | **~84 g** | **~61 g** | **~59 g** | Approximate |
+| Ground beef + tortilla wraps | 120 g **cooked** ground beef + 3 small tortillas | 570 | ~38 g | ~45 g | ~27 g | Confirmed eaten on November 24; ground beef fat % and tortilla types unknown |
+| Kwek-kwek, no sauce | **8 pieces** | **160** | ~8 g | ~16 g | ~7 g | Confirmed eaten on November 24; user app says 20 kcal each, may underestimate batter and frying oil |
+| **Daily eaten subtotal** | | **1,865** | **~130 g** | **~124 g** | **~93 g** | Previously planned items confirmed; approximate |
 
-### Planned / not yet confirmed eaten
-
-| Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
-|---|---|---:|---:|---:|---:|---|
-| Ground beef + tortilla wraps | 120 g **cooked** ground beef + 3 small tortillas | 570 | ~38 g | ~45 g | ~27 g | Ground beef fat % and tortilla types unknown |
-| Kwek-kwek, no sauce | **8 pieces** | **160** | ~8 g | ~16 g | ~7 g | User's tracking app says 12 pcs = 240 kcal (20 kcal each); unverified, may underestimate batter and frying oil |
-| **Planned subtotal** | | **730** | **~46 g** | **~61 g** | **~34 g** | Do not mark eaten without confirmation |
-
-### Projected daily totals (if planned items consumed)
+### November 23 totals
 
 | Metric | Estimate | Goal / remaining |
 |---|---:|---|
-| Calories already logged as eaten | **1,135 kcal** | 765 kcal below 1,900 until planned meals |
-| Planned dinner + kwek-kwek | **730 kcal** | Not yet confirmed consumed |
-| **Projected calories** | **1,865 kcal** | **35 kcal under 1,900** |
-| **Projected protein** | **~130 g** | ~10 g below 140 g goal |
-| Projected carbs | ~124 g | No user-set carb target |
-| Projected fats | ~93 g | No user-set fat target |
+| **Calories eaten** | **1,865 kcal** | **35 kcal under 1,900** |
+| **Protein** | **~130 g** | ~10 g below 140 g goal |
+| Carbs | ~124 g | No user-set carb target |
+| Fats | ~93 g | No user-set fat target |
 
-> **Estimate reliability:** Exact gram-to-kcal conversion not validated. The kwek-kwek app entry (12 pieces = 240 kcal) reportedly lists macros that imply a higher calorie total, so 20 kcal per piece is a *user-selected logging convention*, not a verified food-energy measurement. Fried chicken's 292 g may include bone. Dinner ingredients and oil content may change values. Avoid treating 35 kcal projected remainder as precise.
+> **Estimate reliability:** Exact gram-to-kcal conversion not validated. The kwek-kwek app entry (12 pieces = 240 kcal) reportedly lists macros that imply a higher calorie total, so 20 kcal per piece is a *user-selected logging convention*, not a verified food-energy measurement. Fried chicken's 292 g may include bone. Dinner ingredients and oil content may change values. Avoid treating the estimated 35 kcal remainder as precise.
 
 ## Saved recipe: Swirly Bitz
 
@@ -98,7 +99,7 @@
 3. Use the user's **1,900 kcal daily** and **140 g protein** goals unless updated.
 4. State estimation assumptions (cooked/raw, bone-in, oil, sauce, portions) and avoid false precision.
 5. If user supplies nutrition facts or an app entry, preserve its values *and flag internal inconsistencies*. Do not silently replace with guessed data.
-6. Track weight by date, preferably using weekly trends rather than one-day fluctuations.
+6. Append each user-reported morning scale reading to the Morning weigh-ins table using the actual date; use weekly trends rather than one-day fluctuations. Do not invent or backfill readings.
 7. Never retroactively infer that planned food was eaten.
 
 ## Open questions (only ask when useful)
@@ -106,4 +107,4 @@
 - Was the 292 g fried chicken thigh weighed with bone?
 - Did the user eat the full Swirly Bitz recipe or a fraction?
 - How lean was the cooked ground beef; what size/type were the tortillas?
-- Were the planned dinner and 8 kwek-kwek eaten on November 23?
+- November 23 dinner and eight kwek-kwek confirmed eaten by the user on November 24.

@@ -4,7 +4,7 @@ const number = value => { const match=clean(value || '').match(/-?[\d,]+(?:\.\d+
 const cells = line => line.trim().slice(1,-1).split('|').map(clean);
 const isRow = line => line.trim().startsWith('|') && line.trim().endsWith('|');
 export function parseJournal(md) {
-  const goals={}, days=[];
+  const goals={}, days=[], weighIns=[];
   let day=null, section='', mode='';
   for (const line of md.split(/\r?\n/)) {
     const heading=line.match(/^## Log: .*?(\d{4}-\d{2}-\d{2})\s*$/);
@@ -12,6 +12,11 @@ export function parseJournal(md) {
     if(line.startsWith('## ')){day=null;section=line.slice(3).trim();mode='';continue;}
     if(!day && section==='Current goals and baseline' && isRow(line)){
       const row=cells(line); if(row.length>=2 && row[0]!=='Metric' && !/^[-:]+$/.test(row[0]))goals[row[0]]=row[1]; continue;
+    }
+    if(!day && section==='Morning weigh-ins' && isRow(line)){
+      const [date,weight]=cells(line); const kg=number(weight);
+      if(/^\d{4}-\d{2}-\d{2}$/.test(date)&&kg!==null&&kg>0)weighIns.push({date,kg});
+      continue;
     }
     if(!day)continue;
     if(line.startsWith('**Status:**'))day.status=clean(line.replace('**Status:**','')).split(' — ')[0].split(' for food')[0];
@@ -30,7 +35,7 @@ export function parseJournal(md) {
     day.total={kcal:sum(eaten,'kcal'),protein:sum(eaten,'protein'),carbs:sum(eaten,'carbs'),fat:sum(eaten,'fat')};
     day.planned={kcal:sum(planned,'kcal'),protein:sum(planned,'protein'),unknownProtein:planned.some(row=>row.protein===null)};
   }
-  return {goals,days:days.sort((a,b)=>b.date.localeCompare(a.date)),calorieGoal:number(goals['Daily calorie goal']),proteinGoal:number(goals['Daily protein goal'])};
+  return {goals,weighIns:weighIns.sort((a,b)=>b.date.localeCompare(a.date)),days:days.sort((a,b)=>b.date.localeCompare(a.date)),calorieGoal:number(goals['Daily calorie goal']),proteinGoal:number(goals['Daily protein goal'])};
 }
 const $=id=>document.getElementById(id);
 const fmt=value=>value==null?'—':value.toLocaleString('en-US');
@@ -60,9 +65,11 @@ function renderDay(model,day){
 }
 function renderHistory(model){
   const g=model.goals;
-  set('weight',g['Current weight']||'—');set('weight-goal',g['Long-term goal']?'Goal: '+g['Long-term goal']:'No goal recorded');
-  const milestones=[['2024 first cut',g['First cut (2024)']],['2026 starting weight',g['Earlier starting weight']],['2026 low',g['Previous lowest weight']],['Latest baseline',g['Current weight']]];
-  $('milestones').replaceChildren(...milestones.filter(([,v])=>v).map(([label,value])=>{const li=element('li');li.append(element('span',label,'small muted'),element('strong',value));return li;}));
+  const latest=model.weighIns[0];
+  set('weight',latest?fmt(latest.kg)+' kg':'Not recorded');set('weight-goal',g['Long-term goal']?'Goal: '+g['Long-term goal']:'No goal recorded');
+  set('weight-note',latest?'Latest morning weigh-in: '+displayDate(latest.date):'No morning weigh-ins recorded yet.');
+  const readings=model.weighIns.map(({date,kg})=>{const li=element('li');li.append(element('span',displayDate(date),'small muted'),element('strong',fmt(kg)+' kg'));return li;});
+  $('milestones').replaceChildren(...readings);
   $('history').replaceChildren(...model.days.map(day=>{const row=element('div',null,'history-row'),a=element('a',displayDate(day.date));a.href='?day='+encodeURIComponent(day.date);const track=element('div',null,'track'),fill=element('span');fill.style.width=Math.min(100,(day.total.kcal/(model.calorieGoal||Math.max(1,day.total.kcal)))*100)+'%';track.append(fill);row.append(a,track,element('strong',fmt(day.total.kcal)+' kcal'));return row;}));
 }
 async function main(){
