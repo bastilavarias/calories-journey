@@ -1,0 +1,14 @@
+{
+  "name": "calories-journey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.css -o ./styles.css --minify",
+    "dev:css": "tailwindcss -i ./tailwind.css -o ./styles.css --watch",
+    "test": "node --test journal.test.mjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.3.5",
+    "@tailwindcss/cli": "4.3.5"
+  }
+}
