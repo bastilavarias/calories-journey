@@ -14,6 +14,9 @@ try{
   await page.goto(base+'?day=2026-11-24');await page.locator('#dashboard').waitFor({state:'visible'});
   assert.equal(await page.locator('#kcal').textContent(),'2,025');assert.equal(await page.locator('#remaining-number').textContent(),'125');assert.equal(await page.locator('#protein').textContent(),'136 g');
   assert.equal(await page.locator('#weight').textContent(),'Not recorded');assert.equal(await page.locator('#accountability').count(),0);
+  assert.equal(await page.locator('#energy-ring').count(),0);
+  assert.equal(await page.locator('.intake').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(35, 60, 50)');
+  assert.ok(await page.locator('#kcal').evaluate(el=>parseFloat(getComputedStyle(el).fontSize)>=48));
   assert.equal(await page.locator('#meals tr').count(),8);
   await page.locator('#prev-day').click();assert.equal(await page.locator('#kcal').textContent(),'1,865');assert.equal(await page.locator('#remaining-number').textContent(),'35');
   await page.locator('#next-day').click();assert.equal(await page.locator('#kcal').textContent(),'2,025');

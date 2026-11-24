@@ -3,47 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A personal record of nutrition, morning weigh-ins and progress.">
-<meta name="theme-color" content="#f2f3f0">
+<meta name="description" content="A personal journal of nutrition, morning weight and progress.">
+<meta name="theme-color" content="#f5f5f3">
 <title>Calories Journey | Daily journal</title>
-<link rel="stylesheet" href="styles.css?v=4">
-<script type="module" src="app.mjs?v=3"></script>
+<link rel="stylesheet" href="styles.css?v=5">
+<script type="module" src="app.mjs?v=5"></script>
 </head>
-<body>
-<header class="topbar border-b border-line bg-surface"><div class="shell topbar-inner flex items-center justify-between gap-6"><a class="brand" href="./">calories journey<span>.</span></a><nav aria-label="Journal sections"><a href="#nutrition">Nutrition</a><a href="#weight-section">Weight</a><a href="#history-section">History</a></nav><a class="source-link" href="FOOD_TRACKER.md">Source journal</a></div></header>
+<body class="bg-paper text-ink">
+<header class="border-b border-line">
+  <div class="shell flex min-h-[72px] items-center justify-between gap-4">
+    <a class="wordmark flex items-center gap-3" href="./" aria-label="Calories Journey home">
+      <svg class="brand-mark" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><path d="M4 26 16 5l12 21M10 26l6-11 6 11M4 26h24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>calories journey<span class="text-accent">.</span></span>
+    </a>
+    <nav class="flex items-center gap-6 max-sm:hidden" aria-label="Journal sections"><a href="#nutrition">Diary</a><a href="#weight-section">Weight</a><a href="#history-section">History</a></nav>
+    <a class="source-link" href="FOOD_TRACKER.md">Source journal <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
 <main class="shell">
-  <section class="intro flex justify-between items-end gap-6"><div><h1>Daily journal</h1><p>Progress, not perfection.</p></div><div class="date-control grid gap-2"><label for="day">Journal date</label><div class="date-nav flex gap-1"><button id="prev-day" aria-label="Previous logged day" disabled>Prev</button><select id="day" disabled><option>Loading dates…</option></select><button id="next-day" aria-label="Next logged day" disabled>Next</button></div></div></section>
-  <div id="state" role="status"><p id="state-message">Loading the journal…</p><button id="retry" hidden>Retry</button></div>
+  <section class="intro flex flex-wrap justify-between items-end gap-6 py-8 sm:py-12">
+    <div><h1>One day at a time.</h1><p class="mt-2 text-muted">A record of the work, not a score of the person.</p></div>
+    <div class="date-control">
+      <label for="day" class="sr-only">Journal date</label>
+      <div class="date-nav flex items-center gap-1">
+        <button id="prev-day" aria-label="Previous logged day" disabled><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <select id="day" disabled><option>Loading dates…</option></select>
+        <button id="next-day" aria-label="Next logged day" disabled><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+  </section>
+  <div id="state" role="status" class="py-6"><p id="state-message">Loading the journal…</p><button id="retry" hidden>Retry</button></div>
   <noscript><p>JavaScript is required to display calculations. <a href="FOOD_TRACKER.md">Read the original journal.</a></p></noscript>
   <div id="dashboard" hidden>
-    <section id="nutrition" class="nutrition border-t border-line pt-6" aria-labelledby="daily-heading">
-      <div class="section-head flex justify-between items-baseline gap-3"><h2 id="daily-heading">Nutrition overview</h2><span class="muted text-muted" id="day-status"></span></div>
-      <div class="summary grid gap-6 mt-5 border border-line rounded-[10px] bg-surface p-6">
-        <div class="energy flex items-center gap-6 min-w-0">
-          <div class="ring relative aspect-square" id="energy-ring" aria-hidden="true"><svg viewBox="0 0 144 144"><circle class="ring-track" cx="72" cy="72" r="63"/><circle id="ring-value" class="ring-value" cx="72" cy="72" r="63" pathLength="100" stroke-dasharray="0 100"/></svg><div class="ring-label"><strong id="remaining-number">0</strong><span id="remaining-label">kcal remaining</span></div></div>
-          <div class="energy-copy min-w-0 flex-1 flex flex-col gap-1"><span class="label text-muted text-sm">Calories consumed</span><strong class="big" id="kcal"></strong><span class="muted text-muted" id="kcal-goal"></span><p id="remaining" class="small muted text-muted"></p><div class="track" id="kcal-track" role="progressbar" aria-label="Calories consumed"><span id="kcal-fill"></span></div></div>
+    <section id="nutrition" class="nutrition" aria-labelledby="daily-heading">
+      <div class="intake">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="daily-heading">Daily intake</h2><span class="intake-muted text-sm" id="day-status"></span>
         </div>
-        <div class="macros min-w-0 flex flex-col justify-center gap-4">
-          <div class="macro flex flex-col gap-1 min-w-0"><div><span class="label text-muted text-sm">Protein</span><strong id="protein"></strong></div><span id="protein-goal" class="small muted text-muted"></span><div class="track" id="protein-track" role="progressbar" aria-label="Protein consumed"><span id="protein-fill"></span></div></div>
-          <div class="macro-pair grid grid-cols-2 gap-4 border-t border-line pt-4"><div class="macro flex flex-col gap-1 min-w-0"><span class="label text-muted text-sm">Carbohydrates</span><strong id="carbs"></strong></div><div class="macro flex flex-col gap-1 min-w-0"><span class="label text-muted text-sm">Fat</span><strong id="fat"></strong></div></div>
-          <p class="small muted text-muted macro-note" id="macro-note">Macros are estimated.</p>
+        <div class="intake-numbers">
+          <div><span class="intake-muted">Calories consumed</span><div class="flex flex-wrap items-baseline gap-x-3"><strong id="kcal" class="intake-value"></strong><span id="kcal-goal" class="intake-muted"></span></div></div>
+          <div class="balance"><span id="remaining-label" class="intake-muted">kcal remaining</span><strong id="remaining-number" class="balance-value"></strong></div>
         </div>
+        <div class="track" id="kcal-track" role="progressbar" aria-label="Calories consumed"><span id="kcal-fill"></span></div>
+        <p id="remaining" class="intake-muted text-sm mt-3"></p>
       </div>
-      <p class="small muted text-muted" id="projection"></p>
+      <div class="macro-strip">
+        <div class="macro"><span class="text-muted">Protein</span><strong id="protein"></strong><span id="protein-goal" class="text-sm text-muted"></span><div class="track" id="protein-track" role="progressbar" aria-label="Protein consumed"><span id="protein-fill"></span></div></div>
+        <div class="macro"><span class="text-muted">Carbohydrates</span><strong id="carbs"></strong><span class="text-sm text-muted">Estimated</span></div>
+        <div class="macro"><span class="text-muted">Fat</span><strong id="fat"></strong><span class="text-sm text-muted">Estimated</span></div>
+      </div>
+      <p id="macro-note" class="text-sm text-muted mt-3">Macros are estimated.</p>
+      <p id="projection" class="text-sm text-muted mt-2"></p>
     </section>
-    <div class="workspace grid gap-6 items-start mt-6">
-      <section class="panel bg-surface border border-line rounded-[10px] p-6 min-w-0 food" aria-labelledby="food-heading">
-        <div class="section-head flex justify-between items-baseline gap-3"><h2 id="food-heading">Food diary</h2><span class="muted text-muted small" id="food-count"></span></div>
-        <div class="ledger mt-4"><table><caption class="sr-only">Food and drink ledger</caption><thead><tr><th scope="col">Food / portion</th><th scope="col" class="num">Protein</th><th scope="col" class="num">Calories</th></tr></thead><tbody id="meals"></tbody></table></div>
+    <div class="workspace grid gap-10 mt-12">
+      <section class="food min-w-0" aria-labelledby="food-heading">
+        <div class="section-head flex justify-between items-baseline gap-3"><h2 id="food-heading">Food diary</h2><span class="text-muted text-sm" id="food-count"></span></div>
+        <div class="ledger mt-4"><table><caption class="sr-only">Food and drink ledger</caption><thead><tr><th scope="col">Food / portion</th><th scope="col" class="num">Protein</th><th scope="col" class="num">kcal</th></tr></thead><tbody id="meals"></tbody></table></div>
         <details class="notes"><summary>Estimation notes</summary><div id="notes"></div></details>
       </section>
-      <aside class="progress-column flex flex-col gap-6 min-w-0">
-        <section id="weight-section" aria-labelledby="journey-heading" class="panel bg-surface border border-line rounded-[10px] p-6 min-w-0 weigh-ins"><div class="section-head flex justify-between items-baseline gap-3"><h2 id="journey-heading">Morning weight</h2></div><div class="weight grid gap-2 mt-5"><strong id="weight" class="big">Not recorded</strong><span id="weight-goal" class="muted text-muted small"></span></div><p class="small muted text-muted" id="weight-note">No morning weigh-ins recorded yet.</p><p class="small muted text-muted" id="weight-baseline"></p><div id="weight-chart" class="weight-chart" hidden></div><ol id="milestones" class="timeline"></ol></section>
-        <section id="history-section" class="panel bg-surface border border-line rounded-[10px] p-6 min-w-0 history"><h2>Calorie history</h2><p class="small muted text-muted">Daily logged intake</p><div id="history"></div></section>
+      <aside class="progress-column min-w-0">
+        <section id="weight-section" aria-labelledby="journey-heading" class="weight-section">
+          <h2 id="journey-heading">Morning weight</h2>
+          <div class="weight mt-5"><strong id="weight">Not recorded</strong><span id="weight-goal" class="text-muted text-sm"></span></div>
+          <p class="text-sm text-muted mt-3" id="weight-note">No morning weigh-ins recorded yet.</p>
+          <p class="text-sm text-muted mt-2" id="weight-baseline"></p>
+          <div id="weight-chart" class="weight-chart" hidden></div><ol id="milestones" class="timeline"></ol>
+        </section>
+        <section id="history-section" class="history-section">
+          <h2>Calorie history</h2><p class="text-sm text-muted mt-2">Daily logged intake</p><div id="history" class="mt-4"></div>
+        </section>
       </aside>
     </div>
   </div>
 </main>
-<footer class="shell footer flex justify-between flex-wrap gap-3 py-8"><span>Calories Journey</span><span>Personal record. Nutrition estimates are approximate.</span><a href="https://github.com/bastilavarias/calories-journey">GitHub</a></footer>
+<footer class="shell footer flex flex-wrap justify-between gap-3 py-8"><span>Calories Journey</span><span>Personal record. Nutrition estimates are approximate.</span><a href="https://github.com/bastilavarias/calories-journey">GitHub</a></footer>
 </body>
 </html>
