@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A personal journal of nutrition, weight, and daily accountability.">
+<meta name="theme-color" content="#f7f5ef">
+<title>Calories Journey Not recorded A daily record</title>
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="app.mjs"></script>
+</head>
+<body>
+<header class="topbar"><div class="shell topbar-inner"><a class="brand" href="./">Calories Journey<span>.</span></a><a class="quiet-link" href="FOOD_TRACKER.md">View source journal</a></div></header>
+<main class="shell">
+  <section class="intro"><div><h1>A daily record.</h1><p>Progress, not perfection.</p></div><div class="date-control"><label for="day">Journal date</label><select id="day" disabled><option>Loading dates…</option></select></div></section>
+  <p id="state" role="status">Loading the journal…</p>
+  <noscript><p>JavaScript is needed for the dashboard. <a href="FOOD_TRACKER.md">Read the original Markdown journal.</a></p></noscript>
+  <div id="dashboard" hidden>
+    <section class="daily" aria-labelledby="daily-heading">
+      <div class="section-head"><h2 id="daily-heading">Nutrition</h2><span class="muted" id="day-status"></span></div>
+      <div class="metrics">
+        <div class="main-metric"><span class="label">Calories logged</span><strong id="kcal" class="big">Not recorded</strong><span class="muted" id="kcal-goal"></span><div class="track" id="kcal-track" role="progressbar" aria-label="Calories logged"><span id="kcal-fill"></span></div><p id="remaining" class="small"></p></div>
+        <div><span class="label">Protein</span><strong id="protein">Not recorded</strong><span id="protein-goal" class="muted"></span><div class="track" id="protein-track" role="progressbar" aria-label="Protein logged"><span id="protein-fill"></span></div></div>
+        <div><span class="label">Carbs</span><strong id="carbs">Not recorded</strong><span class="muted">Estimated</span></div>
+        <div><span class="label">Fat</span><strong id="fat">Not recorded</strong><span class="muted">Estimated</span></div>
+      </div>
+      <p class="small muted" id="projection"></p>
+      <div class="ledger"><table><caption>Food and drink ledger</caption><thead><tr><th scope="col">Item</th><th scope="col">Status</th><th scope="col" class="num">kcal</th><th scope="col" class="num">Protein</th></tr></thead><tbody id="meals"></tbody></table></div>
+      <details class="notes"><summary>Estimation notes</summary><div id="notes"></div></details>
+    </section>
+    <div class="two-col">
+      <section aria-labelledby="journey-heading" class="panel"><h2 id="journey-heading">Weight journey</h2><div class="weight"><strong id="weight" class="big">Not recorded</strong><span id="weight-goal" class="muted"></span></div><p class="small muted">Last reported weight, not a live measurement.</p><ol id="milestones" class="timeline"></ol></section>
+      <section aria-labelledby="account-heading" class="panel"><h2 id="account-heading">Accountability</h2><p class="muted small">Record what happened. Leave unknowns unknown.</p><dl id="accountability" class="account-list"></dl><p class="reflection">What went well? What can I improve tomorrow?</p><p class="muted small">Reflection prompt Not recorded no response recorded.</p></section>
+    </div>
+    <section class="panel history"><h2>Daily history</h2><p class="small muted">Logged intake only. Unconfirmed food and drink are shown separately.</p><div id="history"></div></section>
+  </div>
+</main>
+<footer class="shell footer"><span>Calories Journey</span><span>Personal record. Nutrition estimates are approximate.</span><a href="https://github.com/bastilavarias/calories-journey">GitHub</a></footer>
+</body>
+</html>
