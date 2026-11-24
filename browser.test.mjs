@@ -2,6 +2,8 @@ import {createServer} from 'node:http';
 import {readFile} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {pathToFileURL} from 'node:url';
+import {parseJournal} from './app.mjs';
+const latestWeight=parseJournal(await readFile(new URL('./FOOD_TRACKER.md',import.meta.url),'utf8')).weighIns[0];
 const {chromium}=await import(process.env.PLAYWRIGHT_MODULE?pathToFileURL(process.env.PLAYWRIGHT_MODULE).href:'playwright');
 const files={'/':'index.html','/index.html':'index.html','/styles.css':'styles.css','/app.mjs':'app.mjs','/FOOD_TRACKER.md':'FOOD_TRACKER.md'};
 const server=createServer(async(req,res)=>{const file=files[new URL(req.url,'http://localhost').pathname];if(!file){res.writeHead(404).end();return;}try{const body=await readFile(new URL(file,import.meta.url));res.writeHead(200,{'Content-Type':file.endsWith('.html')?'text/html':file.endsWith('.css')?'text/css':file.endsWith('.mjs')?'text/javascript':'text/plain'}).end(body);}catch{res.writeHead(500).end();}});
@@ -13,7 +15,7 @@ try{
   const page=await browser.newPage({viewport});const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'?day=2026-11-24');await page.locator('#dashboard').waitFor({state:'visible'});
   assert.equal(await page.locator('#kcal').textContent(),'2,025');assert.equal(await page.locator('#remaining-number').textContent(),'125');assert.equal(await page.locator('#protein').textContent(),'136 g');
-  assert.equal(await page.locator('#weight').textContent(),'Not recorded');assert.equal(await page.locator('#accountability').count(),0);
+  assert.equal(await page.locator('#weight').textContent(),latestWeight?latestWeight.kg.toLocaleString('en-US')+' kg':'Not recorded');assert.equal(await page.locator('#accountability').count(),0);
   assert.equal(await page.locator('#energy-ring').count(),0);
   assert.equal(await page.locator('.intake').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(35, 60, 50)');
   assert.ok(await page.locator('#kcal').evaluate(el=>parseFloat(getComputedStyle(el).fontSize)>=48));

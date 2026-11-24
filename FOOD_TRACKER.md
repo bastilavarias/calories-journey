@@ -2,7 +2,7 @@
 
 **Owner:** Sebastian Curtis Lavarias  
 **Timezone:** Asia/Manila (Philippines)  
-**Updated:** 2026-11-24  
+**Updated:** 2026-11-25
 **Canonical location:** `/home/sebastech/projects/calories-journey/FOOD_TRACKER.md`
 
 ## Current goals and baseline
@@ -11,7 +11,8 @@
 |---|---:|---|
 | Daily calorie goal | **1,900 kcal** | User corrected earlier 1,700 kcal goal on 2026-11-23 |
 | Daily protein goal | **140 g** | Goal, not a required exact minimum |
-| Current weight | **72.8–73.3 kg** | Reported 2026-11-23; use ~73.0 kg as baseline |
+| Current weight | **72.7 kg** | Morning scale reading on 2026-11-25 |
+| Restart baseline | **72.8–73.3 kg** | Reported 2026-11-23; approximate midpoint 73.05 kg, not a dated scale reading |
 | First cut (2024) | 85 kg to 65 kg | User reports losing 20 kg; describes flexibility, including two San Mig Lights every other night, as helping adherence. Historical report, not a recommended drinking routine. |
 | Earlier starting weight | 75 kg | Before 2026 cut |
 | Previous lowest weight | 68 kg | Lost 7 kg from 75 kg |
@@ -20,10 +21,11 @@
 
 ## Morning weigh-ins
 
-Record actual scale readings in Asia/Manila, preferably after using the bathroom and before breakfast. No daily readings have been reported yet; the earlier weight range is a historical baseline, not a dated scale reading. Use weekly averages to assess trends.
+Record actual scale readings in Asia/Manila, preferably after using the bathroom and before breakfast. First daily reading recorded on 2026-11-25; the earlier weight range is a historical baseline, not a dated scale reading. Use weekly averages to assess trends.
 
 | Date | Weight (kg) |
 |---|---:|
+| 2026-11-25 | 72.7 |
 
 ## Log: Tuesday, 2026-11-24
 
