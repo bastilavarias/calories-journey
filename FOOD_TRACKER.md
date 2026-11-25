@@ -2,7 +2,7 @@
 
 **Owner:** Sebastian Curtis Lavarias  
 **Timezone:** Asia/Manila (Philippines)  
-**Updated:** 2026-11-25
+**Updated:** 2026-11-26
 **Canonical location:** `/home/sebastech/projects/calories-journey/FOOD_TRACKER.md`
 
 ## Current goals and baseline
@@ -11,7 +11,7 @@
 |---|---:|---|
 | Daily calorie goal | **1,900 kcal** | User corrected earlier 1,700 kcal goal on 2026-11-23 |
 | Daily protein goal | **140 g** | Goal, not a required exact minimum |
-| Current weight | **72.7 kg** | Morning scale reading on 2026-11-25 |
+| Current weight | **72.4 kg** | Morning scale reading on 2026-11-26 |
 | Restart baseline | **72.8–73.3 kg** | Reported 2026-11-23; approximate midpoint 73.05 kg, not a dated scale reading |
 | First cut (2024) | 85 kg to 65 kg | User reports losing 20 kg; describes flexibility, including two San Mig Lights every other night, as helping adherence. Historical report, not a recommended drinking routine. |
 | Earlier starting weight | 75 kg | Before 2026 cut |
@@ -26,10 +26,27 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Date | Weight (kg) |
 |---|---:|
 | 2026-11-25 | 72.7 |
+| 2026-11-26 | 72.4 |
+
+## Log: Thursday, 2026-11-26
+
+**Status:** OPEN — morning weigh-in recorded; no food reported yet.
+
+### Eaten / logged
+
+| Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
+|---|---|---:|---:|---:|---:|---|
+| **Daily eaten subtotal** | | **0** | **0 g** | **0 g** | **0 g** | No food reported yet; not a claim of zero actual intake |
+
+### November 26 totals
+
+**Logged intake:** 0 kcal and 0 g protein so far. Morning weight: 72.4 kg.
+
+---
 
 ## Log: Wednesday, 2026-11-25
 
-**Status:** OPEN — breakfast, lunch, merienda, dinner and protein shake logged.
+**Status:** CLOSED — breakfast, lunch, merienda, dinner and protein shake logged; subject to corrections.
 
 ### Eaten / logged
 
