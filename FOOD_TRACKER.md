@@ -27,6 +27,25 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 |---|---:|
 | 2026-11-25 | 72.7 |
 
+## Log: Wednesday, 2026-11-25
+
+**Status:** OPEN — breakfast logged.
+
+### Eaten / logged
+
+| Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
+|---|---|---:|---:|---:|---:|---|
+| Sunny-side-up eggs | 115 g cooked | ~220 | ~15 g | ~1 g | ~17 g | Breakfast; estimate includes typical frying oil |
+| Longganisa | 45 g | ~150 | ~6 g | ~6 g | ~11 g | Breakfast; fat and sugar vary by recipe |
+| Homemade fried rice | 182 g cooked | ~310 | ~5 g | ~52 g | ~9 g | Breakfast; assumes typical oil and rice, exact recipe unknown |
+| **Daily eaten subtotal** | | **~680** | **~26 g** | **~59 g** | **~37 g** | Breakfast only; all values approximate |
+
+### November 25 totals
+
+**Estimated intake:** **680 kcal**, **~26 g protein**, **~59 g carbs**, **~37 g fat**. **Remaining:** ~1,220 kcal and ~114 g protein against daily targets. Morning weight: 72.7 kg.
+
+---
+
 ## Log: Tuesday, 2026-11-24
 
 **Status:** CLOSED — evening beer included; protein shake excluded. Estimates remain provisional and may be revised if specific nutrition labels are supplied.
