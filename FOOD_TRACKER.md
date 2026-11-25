@@ -37,12 +37,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 |---|---|---:|---:|---:|---:|---|
 | Sunny-side-up eggs | 115 g cooked | ~220 | ~15 g | ~1 g | ~17 g | Breakfast; estimate includes typical frying oil |
 | Longganisa | 45 g | ~150 | ~6 g | ~6 g | ~11 g | Breakfast; fat and sugar vary by recipe |
-| Homemade fried rice | 182 g cooked | ~310 | ~5 g | ~52 g | ~9 g | Breakfast; assumes typical oil and rice, exact recipe unknown |
-| **Daily eaten subtotal** | | **~680** | **~26 g** | **~59 g** | **~37 g** | Breakfast only; all values approximate |
+| Homemade fried rice | 100 g cooked | ~170 | ~3 g | ~29 g | ~5 g | Breakfast; user reduced portion from 182 g to 100 g; scaled prior estimate; exact recipe unknown |
+| **Daily eaten subtotal** | | **~540** | **~24 g** | **~36 g** | **~33 g** | Breakfast only; all values approximate |
 
 ### November 25 totals
 
-**Estimated intake:** **680 kcal**, **~26 g protein**, **~59 g carbs**, **~37 g fat**. **Remaining:** ~1,220 kcal and ~114 g protein against daily targets. Morning weight: 72.7 kg.
+**Estimated intake:** **540 kcal**, **~24 g protein**, **~36 g carbs**, **~33 g fat**. **Remaining:** ~1,360 kcal and ~116 g protein against daily targets. Morning weight: 72.7 kg.
 
 ---
 
