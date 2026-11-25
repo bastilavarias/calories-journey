@@ -29,7 +29,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Wednesday, 2026-11-25
 
-**Status:** OPEN — breakfast and lunch logged.
+**Status:** OPEN — breakfast, lunch and merienda logged.
 
 ### Eaten / logged
 
@@ -40,11 +40,13 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Homemade fried rice | 100 g cooked | ~170 | ~3 g | ~29 g | ~5 g | Breakfast; user reduced portion from 182 g to 100 g; scaled prior estimate; exact recipe unknown |
 | Creamy mushroom chicken breast with broccoli | 284 g total; 104 g cooked chicken breast + 180 g broccoli, mushrooms and a little sauce | ~340 | ~37 g | ~12 g | ~16 g | Lunch; chicken ~172 kcal; remaining mixture ~168 kcal; sauce quantity and recipe uncertain. No separate rice counted. |
 | Air-fried hash brown | 50 g | ~100 | ~1 g | ~13 g | ~5 g | Lunch; generic hash brown reheated from last night, scaled from prior 100 g estimate; no extra oil assumed. |
-| **Daily eaten subtotal** | | **~980** | **~62 g** | **~61 g** | **~54 g** | Breakfast and lunch; all values approximate |
+| Swirly Bitz merienda | 1 usual saved recipe portion | ~265 | ~7 g | ~29 g | ~13 g | Assumed full saved recipe portion, consistent with November 23 log. |
+| Kwek-kwek | 8 pieces | ~160 | ~8 g | ~16 g | ~7 g | Same user-selected logging convention as November 23: 20 kcal per piece, no sauce assumed; likely underestimates frying calories and macros are not independently verified. |
+| **Daily eaten subtotal** | | **~1,405** | **~77 g** | **~106 g** | **~74 g** | Breakfast, lunch and merienda; all values approximate |
 
 ### November 25 totals
 
-**Estimated intake:** **980 kcal**, **~62 g protein**, **~61 g carbs**, **~54 g fat**. **Remaining:** ~920 kcal and ~78 g protein against daily targets. Morning weight: 72.7 kg.
+**Estimated intake:** **1,405 kcal**, **~77 g protein**, **~106 g carbs**, **~74 g fat**. **Remaining:** ~495 kcal and ~63 g protein against daily targets. Swirly Bitz assumes the full usual recipe; kwek-kwek uses the user's existing 20 kcal/piece convention, which may underestimate actual energy. Morning weight: 72.7 kg.
 
 ---
 
