@@ -29,7 +29,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Wednesday, 2026-11-25
 
-**Status:** OPEN — breakfast logged.
+**Status:** OPEN — breakfast and lunch logged.
 
 ### Eaten / logged
 
@@ -38,11 +38,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Sunny-side-up eggs | 115 g cooked | ~220 | ~15 g | ~1 g | ~17 g | Breakfast; estimate includes typical frying oil |
 | Longganisa | 45 g | ~150 | ~6 g | ~6 g | ~11 g | Breakfast; fat and sugar vary by recipe |
 | Homemade fried rice | 100 g cooked | ~170 | ~3 g | ~29 g | ~5 g | Breakfast; user reduced portion from 182 g to 100 g; scaled prior estimate; exact recipe unknown |
-| **Daily eaten subtotal** | | **~540** | **~24 g** | **~36 g** | **~33 g** | Breakfast only; all values approximate |
+| Creamy mushroom chicken breast with broccoli | 284 g total; 104 g cooked chicken breast + 180 g broccoli, mushrooms and a little sauce | ~340 | ~37 g | ~12 g | ~16 g | Lunch; chicken ~172 kcal; remaining mixture ~168 kcal; sauce quantity and recipe uncertain. No separate rice counted. |
+| **Daily eaten subtotal** | | **~880** | **~61 g** | **~48 g** | **~49 g** | Breakfast and lunch; all values approximate |
 
 ### November 25 totals
 
-**Estimated intake:** **540 kcal**, **~24 g protein**, **~36 g carbs**, **~33 g fat**. **Remaining:** ~1,360 kcal and ~116 g protein against daily targets. Morning weight: 72.7 kg.
+**Estimated intake:** **880 kcal**, **~61 g protein**, **~48 g carbs**, **~49 g fat**. **Remaining:** ~1,020 kcal and ~79 g protein against daily targets. Morning weight: 72.7 kg.
 
 ---
 
