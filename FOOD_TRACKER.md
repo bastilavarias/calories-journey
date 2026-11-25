@@ -29,7 +29,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Wednesday, 2026-11-25
 
-**Status:** OPEN — breakfast, lunch, merienda and dinner logged.
+**Status:** OPEN — breakfast, lunch, merienda, dinner and protein shake logged.
 
 ### Eaten / logged
 
@@ -44,11 +44,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Kwek-kwek | 6 pieces | ~120 | ~6 g | ~12 g | ~5 g | Corrected from 8 to 6 pieces by user; same user-selected logging convention of 20 kcal per piece, no sauce assumed; likely underestimates frying calories and macros are not independently verified. |
 | Cooked beef | 105 g total (35 g per wrap × 3) | ~263 | ~27 g | 0 g | ~18 g | Dinner; assumes same cooked ground beef estimate as November 24 (250 kcal per 100 g); fat content and added oil unknown. |
 | Tortilla wraps | 3 pieces × 100 kcal | 300 | ~9 g | ~57 g | ~3 g | Dinner; calories from packaging as reported by user; macros estimated from prior similarly sized wraps, actual label macros unknown. |
-| **Daily eaten subtotal** | | **~1,928** | **~111 g** | **~159 g** | **~93 g** | Breakfast, lunch, merienda and dinner; all values approximate |
+| Athlene Chocolate Fudge protein shake | 1 scoop | 120 | ~24 g | ~3 g | ~1 g | Evening; user stated they will drink it, counted per consumed-by-default rule. Assumes usual scoop with water. |
+| **Daily eaten subtotal** | | **~2,048** | **~135 g** | **~162 g** | **~94 g** | All values approximate |
 
 ### November 25 totals
 
-**Estimated intake:** **1,928 kcal**, **~111 g protein**, **~159 g carbs**, **~93 g fat**. **Against daily targets:** ~28 kcal above 1,900 and ~29 g protein below 140 g. Dinner includes 105 g cooked beef and three 100 kcal wraps; beef calories and all dinner macros are estimates. Swirly Bitz assumes the full usual recipe; kwek-kwek uses the user's existing 20 kcal/piece convention, which may underestimate actual energy. Morning weight: 72.7 kg.
+**Estimated intake:** **2,048 kcal**, **~135 g protein**, **~162 g carbs**, **~94 g fat**. **Against daily targets:** ~148 kcal above 1,900 and ~5 g protein below 140 g; exceeds 130 g protein by ~5 g. Includes one evening protein shake. Dinner includes 105 g cooked beef and three 100 kcal wraps; beef calories and all dinner macros are estimates. Swirly Bitz assumes the full usual recipe; kwek-kwek uses the user's existing 20 kcal/piece convention, which may underestimate actual energy. Morning weight: 72.7 kg.
 
 ---
 
