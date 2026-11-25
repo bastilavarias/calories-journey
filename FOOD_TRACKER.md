@@ -29,7 +29,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Wednesday, 2026-11-25
 
-**Status:** OPEN — breakfast, lunch and merienda logged.
+**Status:** OPEN — breakfast, lunch, merienda and dinner logged.
 
 ### Eaten / logged
 
@@ -42,11 +42,13 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Air-fried hash brown | 50 g | ~100 | ~1 g | ~13 g | ~5 g | Lunch; generic hash brown reheated from last night, scaled from prior 100 g estimate; no extra oil assumed. |
 | Swirly Bitz merienda | 1 usual saved recipe portion | ~265 | ~7 g | ~29 g | ~13 g | Assumed full saved recipe portion, consistent with November 23 log. |
 | Kwek-kwek | 6 pieces | ~120 | ~6 g | ~12 g | ~5 g | Corrected from 8 to 6 pieces by user; same user-selected logging convention of 20 kcal per piece, no sauce assumed; likely underestimates frying calories and macros are not independently verified. |
-| **Daily eaten subtotal** | | **~1,365** | **~75 g** | **~102 g** | **~72 g** | Breakfast, lunch and merienda; all values approximate |
+| Cooked beef | 105 g total (35 g per wrap × 3) | ~263 | ~27 g | 0 g | ~18 g | Dinner; assumes same cooked ground beef estimate as November 24 (250 kcal per 100 g); fat content and added oil unknown. |
+| Tortilla wraps | 3 pieces × 100 kcal | 300 | ~9 g | ~57 g | ~3 g | Dinner; calories from packaging as reported by user; macros estimated from prior similarly sized wraps, actual label macros unknown. |
+| **Daily eaten subtotal** | | **~1,928** | **~111 g** | **~159 g** | **~93 g** | Breakfast, lunch, merienda and dinner; all values approximate |
 
 ### November 25 totals
 
-**Estimated intake:** **1,365 kcal**, **~75 g protein**, **~102 g carbs**, **~72 g fat**. **Remaining:** ~535 kcal and ~65 g protein against daily targets. Swirly Bitz assumes the full usual recipe; kwek-kwek uses the user's existing 20 kcal/piece convention, which may underestimate actual energy. Morning weight: 72.7 kg.
+**Estimated intake:** **1,928 kcal**, **~111 g protein**, **~159 g carbs**, **~93 g fat**. **Against daily targets:** ~28 kcal above 1,900 and ~29 g protein below 140 g. Dinner includes 105 g cooked beef and three 100 kcal wraps; beef calories and all dinner macros are estimates. Swirly Bitz assumes the full usual recipe; kwek-kwek uses the user's existing 20 kcal/piece convention, which may underestimate actual energy. Morning weight: 72.7 kg.
 
 ---
 
