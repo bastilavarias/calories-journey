@@ -41,12 +41,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Swirly Bitz merienda | 1 usual saved recipe portion | ~265 | ~7 g | ~29 g | ~13 g | Assumes full usual recipe. |
 | Angel's Burger secret meal | **Half of one sandwich only** | ~400 | ~17 g | ~33 g | ~22 g | Merienda; provisional estimate for half a loaded footlong (hotdog, burger patty, egg, bacon and cheese assumed); exact ingredients and official nutrition not verified. Other half excluded. |
 | Cooked white rice | 114 g | ~148 | ~3 g | ~32 g | ~0 g | Dinner; assumed cooked plain white rice. |
-| Air-fried chicken breast, lightly floured | 120 g cooked | ~220 | ~38 g | ~4 g | ~5 g | Dinner; light flour coating estimated, little or no added oil assumed. Exact coating weight unknown. |
-| **Daily eaten subtotal** | | **~1,842** | **~122 g** | **~131 g** | **~88 g** | Lunch, merienda and dinner; estimates approximate |
+| Air-fried chicken breast, lightly floured | 184 g cooked (120 g + 64 g) | ~337 | ~58 g | ~6 g | ~8 g | Dinner; added 64 g of the same chicken, scaled previous estimate. Light flour coating estimated, little or no added oil assumed. Exact coating weight unknown. |
+| **Daily eaten subtotal** | | **~1,959** | **~142 g** | **~133 g** | **~91 g** | Lunch, merienda and dinner; estimates approximate |
 
 ### November 26 totals
 
-**Estimated intake:** **1,842 kcal**, **~122 g protein**, **~131 g carbs**, **~88 g fat**. **Remaining:** ~58 kcal and ~18 g protein against daily targets. Dinner includes 114 g cooked rice and 120 g air-fried chicken breast with light flour coating; coating and added oil estimated. Includes usual Swirly Bitz and only half of Angel's Burger secret meal; sandwich nutrition provisional. Lunch estimates scaled from November 23; chicken bone-in/edible weight and cooking oil remain uncertain. Morning weight: 72.4 kg.
+**Estimated intake:** **1,959 kcal**, **~142 g protein**, **~133 g carbs**, **~91 g fat**. **Against daily targets:** ~59 kcal above 1,900 and ~2 g protein above 140 g. Dinner includes 114 g cooked rice and 184 g air-fried chicken breast with light flour coating (120 g + 64 g); coating and added oil estimated. Includes usual Swirly Bitz and only half of Angel's Burger secret meal; sandwich nutrition provisional. Lunch estimates scaled from November 23; chicken bone-in/edible weight and cooking oil remain uncertain. Morning weight: 72.4 kg.
 
 ---
 
