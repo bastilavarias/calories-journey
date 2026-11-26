@@ -30,17 +30,19 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Thursday, 2026-11-26
 
-**Status:** OPEN — morning weigh-in recorded; no food reported yet.
+**Status:** OPEN — morning weigh-in and lunch logged.
 
 ### Eaten / logged
 
 | Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| **Daily eaten subtotal** | | **0** | **0 g** | **0 g** | **0 g** | No food reported yet; not a claim of zero actual intake |
+| Ginisang sayote | 265 g | ~177 | ~3 g | ~17 g | ~10 g | Lunch; scaled from November 23 estimate of 170 kcal per 255 g; oil and recipe unknown. |
+| Homemade fried chicken thigh | 318 g cooked | ~632 | ~54 g | ~16 g | ~38 g | Lunch; scaled from November 23 estimate of 580 kcal per 292 g; assumes similar preparation and bone-in weighing convention, actual edible weight, coating and oil uncertain. |
+| **Daily eaten subtotal** | | **~809** | **~57 g** | **~33 g** | **~48 g** | Lunch only reported; estimates approximate |
 
 ### November 26 totals
 
-**Logged intake:** 0 kcal and 0 g protein so far. Morning weight: 72.4 kg.
+**Estimated intake:** **809 kcal**, **~57 g protein**, **~33 g carbs**, **~48 g fat**. **Remaining:** ~1,091 kcal and ~83 g protein against daily targets. Lunch estimates scaled from November 23; chicken bone-in/edible weight and cooking oil remain uncertain. Morning weight: 72.4 kg.
 
 ---
 
