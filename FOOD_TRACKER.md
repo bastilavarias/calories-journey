@@ -30,7 +30,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Thursday, 2026-11-26
 
-**Status:** OPEN — morning weigh-in and lunch logged.
+**Status:** OPEN — morning weigh-in, lunch and merienda logged.
 
 ### Eaten / logged
 
@@ -38,11 +38,13 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 |---|---|---:|---:|---:|---:|---|
 | Ginisang sayote | 265 g | ~177 | ~3 g | ~17 g | ~10 g | Lunch; scaled from November 23 estimate of 170 kcal per 255 g; oil and recipe unknown. |
 | Homemade fried chicken thigh | 318 g cooked | ~632 | ~54 g | ~16 g | ~38 g | Lunch; scaled from November 23 estimate of 580 kcal per 292 g; assumes similar preparation and bone-in weighing convention, actual edible weight, coating and oil uncertain. |
-| **Daily eaten subtotal** | | **~809** | **~57 g** | **~33 g** | **~48 g** | Lunch only reported; estimates approximate |
+| Swirly Bitz merienda | 1 usual saved recipe portion | ~265 | ~7 g | ~29 g | ~13 g | Assumes full usual recipe. |
+| Angel's Burger secret meal | **Half of one sandwich only** | ~400 | ~17 g | ~33 g | ~22 g | Merienda; provisional estimate for half a loaded footlong (hotdog, burger patty, egg, bacon and cheese assumed); exact ingredients and official nutrition not verified. Other half excluded. |
+| **Daily eaten subtotal** | | **~1,474** | **~81 g** | **~95 g** | **~83 g** | Lunch and merienda; estimates approximate |
 
 ### November 26 totals
 
-**Estimated intake:** **809 kcal**, **~57 g protein**, **~33 g carbs**, **~48 g fat**. **Remaining:** ~1,091 kcal and ~83 g protein against daily targets. Lunch estimates scaled from November 23; chicken bone-in/edible weight and cooking oil remain uncertain. Morning weight: 72.4 kg.
+**Estimated intake:** **1,474 kcal**, **~81 g protein**, **~95 g carbs**, **~83 g fat**. **Remaining:** ~426 kcal and ~59 g protein against daily targets. Includes usual Swirly Bitz and only half of Angel's Burger secret meal; sandwich nutrition provisional. Lunch estimates scaled from November 23; chicken bone-in/edible weight and cooking oil remain uncertain. Morning weight: 72.4 kg.
 
 ---
 
