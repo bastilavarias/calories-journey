@@ -31,7 +31,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Friday, 2026-11-27
 
-**Status:** OPEN — morning weigh-in, lunch, pre-workout snack and merienda logged.
+**Status:** OPEN — morning weigh-in, lunch, pre-workout snack, merienda and dinner logged.
 
 ### Eaten / logged
 
@@ -43,11 +43,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Jack 'n Jill Presto Creams Peanut Butter | 1 pack (30 g) | 150 | 3 g | 19 g | 7 g | Pre-workout snack; assumes full pictured pack. Nutrition from https://chompthis.com/product/?id=704848 and https://www.carbmanager.com/food-detail/md%3Aae9ed3982d600bd896dd83410f3761a9/presto-creams-peanut-butter-sandwich-cookies ; back label not shown. |
 | Plain lomi | 220 g noodles and thickened broth | ~242 | ~8 g | ~46 g | ~3 g | Merienda; no toppings included, using agreed estimate of 110 kcal per 100 g; macros and noodle-to-broth ratio uncertain. |
 | Boiled egg | 44 g | ~68 | ~6 g | ~1 g | ~5 g | Merienda; separately counted, assumes edible weight without shell. |
-| **Daily eaten subtotal** | | **~1,160** | **~66 g** | **~109 g** | **~50 g** | All reported meals and snacks; estimates approximate |
+| 2-pc Chicken McDo with rice | 2 chicken pieces + assumed 1 serving rice | ~809 | ~42 g | ~70 g | ~40 g | Dinner; calorie estimate from https://platediary.app/calories/mcdonalds-philippines (reports McDonald's Philippines menu value). Macros are provisional estimates; chicken cuts, rice serving and gravy vary. No beverage or extras counted. |
+| **Daily eaten subtotal** | | **~1,969** | **~108 g** | **~179 g** | **~90 g** | All reported meals and snacks; estimates approximate |
 
 ### November 27 totals
 
-**Estimated intake:** **1,160 kcal**, **~66 g protein**, **~109 g carbs**, **~50 g fat**. **Remaining:** ~740 kcal and ~74 g protein against daily targets. Includes 220 g plain lomi and 44 g boiled egg; lomi macros and recipe provisional. Includes one 30 g pack of Presto Creams Peanut Butter as a pre-workout snack. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
+**Estimated intake:** **1,969 kcal**, **~108 g protein**, **~179 g carbs**, **~90 g fat**. **Against daily targets:** ~69 kcal above 1,900 and ~32 g protein below 140 g. Dinner is 2-pc Chicken McDo with assumed one rice serving; macros estimated and no drinks or extras counted. Includes 220 g plain lomi and 44 g boiled egg; lomi macros and recipe provisional. Includes one 30 g pack of Presto Creams Peanut Butter as a pre-workout snack. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
 
 ---
 
