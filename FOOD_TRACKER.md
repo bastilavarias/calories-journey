@@ -31,7 +31,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Friday, 2026-11-27
 
-**Status:** OPEN — morning weigh-in and lunch logged.
+**Status:** OPEN — morning weigh-in, lunch and pre-workout snack logged.
 
 ### Eaten / logged
 
@@ -40,11 +40,12 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Homemade fried chicken thigh, lightly floured | 218 g cooked | ~435 | ~37 g | ~8 g | ~28 g | Lunch; minimal flour, no double coating per user. Uses previous bone-in fried thigh calorie estimate as baseline; actual edible weight and absorbed oil uncertain. |
 | Cooked white rice | 120 g | ~156 | ~3 g | ~34 g | ~0 g | Lunch; assumed plain cooked rice. |
 | Boiled egg | 70 g | ~109 | ~9 g | ~1 g | ~7 g | Lunch; assumes 70 g edible weight without shell. |
-| **Daily eaten subtotal** | | **~700** | **~49 g** | **~43 g** | **~35 g** | Lunch only reported; estimates approximate |
+| Jack 'n Jill Presto Creams Peanut Butter | 1 pack (30 g) | 150 | 3 g | 19 g | 7 g | Pre-workout snack; assumes full pictured pack. Nutrition from https://chompthis.com/product/?id=704848 and https://www.carbmanager.com/food-detail/md%3Aae9ed3982d600bd896dd83410f3761a9/presto-creams-peanut-butter-sandwich-cookies ; back label not shown. |
+| **Daily eaten subtotal** | | **~850** | **~52 g** | **~62 g** | **~42 g** | Lunch and pre-workout snack; estimates approximate |
 
 ### November 27 totals
 
-**Estimated intake:** **700 kcal**, **~49 g protein**, **~43 g carbs**, **~35 g fat**. **Remaining:** ~1,200 kcal and ~91 g protein against daily targets. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
+**Estimated intake:** **850 kcal**, **~52 g protein**, **~62 g carbs**, **~42 g fat**. **Remaining:** ~1,050 kcal and ~88 g protein against daily targets. Includes one 30 g pack of Presto Creams Peanut Butter as a pre-workout snack. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
 
 ---
 
