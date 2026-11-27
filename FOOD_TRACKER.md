@@ -31,17 +31,20 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Friday, 2026-11-27
 
-**Status:** OPEN — morning weigh-in recorded; no food reported yet.
+**Status:** OPEN — morning weigh-in and lunch logged.
 
 ### Eaten / logged
 
 | Meal / item | Portion | Estimated kcal | Estimated protein | Estimated carbs | Estimated fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| **Daily eaten subtotal** | | **0** | **0 g** | **0 g** | **0 g** | No food reported yet; not a claim of zero actual intake |
+| Homemade fried chicken thigh, lightly floured | 218 g cooked | ~435 | ~37 g | ~8 g | ~28 g | Lunch; minimal flour, no double coating per user. Uses previous bone-in fried thigh calorie estimate as baseline; actual edible weight and absorbed oil uncertain. |
+| Cooked white rice | 120 g | ~156 | ~3 g | ~34 g | ~0 g | Lunch; assumed plain cooked rice. |
+| Boiled egg | 70 g | ~109 | ~9 g | ~1 g | ~7 g | Lunch; assumes 70 g edible weight without shell. |
+| **Daily eaten subtotal** | | **~700** | **~49 g** | **~43 g** | **~35 g** | Lunch only reported; estimates approximate |
 
 ### November 27 totals
 
-**Logged intake:** 0 kcal and 0 g protein so far. Morning weight: 72.8 kg.
+**Estimated intake:** **700 kcal**, **~49 g protein**, **~43 g carbs**, **~35 g fat**. **Remaining:** ~1,200 kcal and ~91 g protein against daily targets. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
 
 ---
 
