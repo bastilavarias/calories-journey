@@ -31,7 +31,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Friday, 2026-11-27
 
-**Status:** OPEN — morning weigh-in, lunch, pre-workout snack and lomi meal logged.
+**Status:** OPEN — morning weigh-in, lunch, pre-workout snack and merienda logged.
 
 ### Eaten / logged
 
@@ -41,8 +41,8 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Cooked white rice | 120 g | ~156 | ~3 g | ~34 g | ~0 g | Lunch; assumed plain cooked rice. |
 | Boiled egg | 70 g | ~109 | ~9 g | ~1 g | ~7 g | Lunch; assumes 70 g edible weight without shell. |
 | Jack 'n Jill Presto Creams Peanut Butter | 1 pack (30 g) | 150 | 3 g | 19 g | 7 g | Pre-workout snack; assumes full pictured pack. Nutrition from https://chompthis.com/product/?id=704848 and https://www.carbmanager.com/food-detail/md%3Aae9ed3982d600bd896dd83410f3761a9/presto-creams-peanut-butter-sandwich-cookies ; back label not shown. |
-| Plain lomi | 220 g noodles and thickened broth | ~242 | ~8 g | ~46 g | ~3 g | Evening meal; no toppings included, using agreed estimate of 110 kcal per 100 g; macros and noodle-to-broth ratio uncertain. |
-| Boiled egg | 44 g | ~68 | ~6 g | ~1 g | ~5 g | Evening meal; separately counted, assumes edible weight without shell. |
+| Plain lomi | 220 g noodles and thickened broth | ~242 | ~8 g | ~46 g | ~3 g | Merienda; no toppings included, using agreed estimate of 110 kcal per 100 g; macros and noodle-to-broth ratio uncertain. |
+| Boiled egg | 44 g | ~68 | ~6 g | ~1 g | ~5 g | Merienda; separately counted, assumes edible weight without shell. |
 | **Daily eaten subtotal** | | **~1,160** | **~66 g** | **~109 g** | **~50 g** | All reported meals and snacks; estimates approximate |
 
 ### November 27 totals
