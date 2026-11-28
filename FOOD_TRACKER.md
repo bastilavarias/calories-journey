@@ -2,7 +2,7 @@
 
 **Owner:** Sebastian Curtis Lavarias  
 **Timezone:** Asia/Manila (Philippines)  
-**Updated:** 2026-11-27
+**Updated:** 2026-11-28
 **Canonical location:** `/home/sebastech/projects/calories-journey/FOOD_TRACKER.md`
 
 ## Current goals and baseline
@@ -31,7 +31,7 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 
 ## Log: Friday, 2026-11-27
 
-**Status:** OPEN — morning weigh-in, lunch, pre-workout snack, merienda and dinner logged.
+**Status:** CLOSED — food and late-evening drinks reported on November 28; subject to corrections.
 
 ### Eaten / logged
 
@@ -44,11 +44,13 @@ Record actual scale readings in Asia/Manila, preferably after using the bathroom
 | Plain lomi | 220 g noodles and thickened broth | ~242 | ~8 g | ~46 g | ~3 g | Merienda; no toppings included, using agreed estimate of 110 kcal per 100 g; macros and noodle-to-broth ratio uncertain. |
 | Boiled egg | 44 g | ~68 | ~6 g | ~1 g | ~5 g | Merienda; separately counted, assumes edible weight without shell. |
 | 2-pc Chicken McDo with rice | 2 chicken pieces + assumed 1 serving rice | ~809 | ~42 g | ~70 g | ~40 g | Dinner; calorie estimate from https://platediary.app/calories/mcdonalds-philippines (reports McDonald's Philippines menu value). Macros are provisional estimates; chicken cuts, rice serving and gravy vary. No beverage or extras counted. |
-| **Daily eaten subtotal** | | **~1,969** | **~108 g** | **~179 g** | **~90 g** | All reported meals and snacks; estimates approximate |
+| San Miguel beer | 6 bottles; assumed regular Pale Pilsen, ~320–330 mL each | ~840 | — | — | — | Late evening; reported next morning. Variant and size unconfirmed; provisional 140 kcal each. If San Mig Light 330 mL instead, use 600 kcal total. |
+| Red Horse Mucho | 1 bottle, assumed 1 L | ~560 | — | — | — | Late evening; reported next morning. Scaled prior estimate of 280 kcal per 500 mL; assumes entire bottle consumed. |
+| **Daily eaten subtotal** | | **~3,369** | **~108 g** | **~179 g** | **~90 g** | Includes ~1,400 kcal from drinks; macros food-only, beer macros not verified; estimates approximate |
 
 ### November 27 totals
 
-**Estimated intake:** **1,969 kcal**, **~108 g protein**, **~179 g carbs**, **~90 g fat**. **Against daily targets:** ~69 kcal above 1,900 and ~32 g protein below 140 g. Dinner is 2-pc Chicken McDo with assumed one rice serving; macros estimated and no drinks or extras counted. Includes 220 g plain lomi and 44 g boiled egg; lomi macros and recipe provisional. Includes one 30 g pack of Presto Creams Peanut Butter as a pre-workout snack. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
+**Estimated intake:** **3,369 kcal** including ~1,400 kcal from beer; **food-only macros:** ~108 g protein, ~179 g carbs, ~90 g fat. **Against daily targets:** ~1,469 kcal above 1,900; food protein ~32 g below 140 g. Assumed six regular San Miguel bottles and one full 1 L Red Horse Mucho; if six San Mig Light instead, total would be ~3,129 kcal. Beer macros not verified. Dinner is 2-pc Chicken McDo with assumed one rice serving; macros estimated and no additional meal extras counted. Includes 220 g plain lomi and 44 g boiled egg; lomi macros and recipe provisional. Includes one 30 g pack of Presto Creams Peanut Butter as a pre-workout snack. Chicken has minimal flour and no double coating; bone weight and absorbed oil uncertain. Egg assumes edible weight. Morning weight: 72.8 kg.
 
 ---
 
